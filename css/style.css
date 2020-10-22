@@ -202,10 +202,6 @@ cursor:pointer;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
 
-/* .post-slider .post-wrapper .post i{
-    color: black;
-} */
-
 .post-slider .post-wrapper .post .post-info{
     height: 130px;
     padding: 0px 5px;
@@ -351,7 +347,7 @@ cursor:pointer;
     width: 45px;
     height: 41px;
     padding-top: 5px;
-    margin-right: 5px;
+    margin: 10px 7px;
     text-align: center;
     display: inline-block;
     font-size: 1.3em;
