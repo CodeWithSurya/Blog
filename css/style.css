@@ -598,5 +598,8 @@ cursor:pointer;
     .post-slider .prev{ 
         left: 20px;
         }
+    .footer .footer-bottom{
+        height: auto;
+    }
     
 }
