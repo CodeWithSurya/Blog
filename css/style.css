@@ -486,6 +486,9 @@ cursor:pointer;
     .content{
         width: 100%;
     }
+    .auth-content{
+        width: 50%;
+    }
     .content .main-content{
         width: 100%;
         padding: 10px;
@@ -523,6 +526,9 @@ cursor:pointer;
         position: relative;
     }
     
+    .auth-content{
+        width: 60%;
+    }
     header ul{
         width: 100%;
         background: #0e94a0;
@@ -571,11 +577,23 @@ cursor:pointer;
        
         margin-left: .5em;
     }
+
+    .main-content-wrapper{
+        padding: 10px;
+    }
 }
 @media  screen and (max-width:600px){
     .content .main-content .post{
         height: auto;
     }
+
+    .auth-content{
+        width: 90%;
+    }
+    .content .main-content.single{
+        padding: 10px 20px;
+        
+     }
 
     .content .main-content .post .post-image{
         width: 100%;
@@ -592,12 +610,12 @@ cursor:pointer;
     }
 
     .post-slider .next{
-        right: 20px;       
+        right: 15px;       
         }
         
     .post-slider .prev{ 
-        left: 20px;
-        }
+        left: 15px;
+    }
     .footer .footer-bottom{
         height: auto;
     }
